@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Basic styling for the user profile image */
+.user-info img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+/* Styling for posts */
+.post {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Styling for post images */
+.post img {
+    max-width: 100%;
+}
+
+/* Styling for post action buttons */
+.post-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Add responsive design rules as needed */
+@media (max-width: 768px) {
+    /* Responsive styles for smaller screens go here */
+    .user-info img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
